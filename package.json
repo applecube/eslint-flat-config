@@ -1,0 +1,24 @@
+{
+  "name": "eslint_flat_config",
+  "version": "1.0.0",
+  "description": "eslint 9+ flat config example - with plugins and prettier",
+  "license": "MIT",
+  "author": {
+    "name": "Alexander L",
+    "email": "xela.votapil@gmail.com"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "eslint": "^9.13.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.1",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-storybook": "^0.10.1",
+    "globals": "^15.11.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.11.0"
+  }
+}

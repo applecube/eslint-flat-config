@@ -1,0 +1,61 @@
+export default {
+  'simple-import-sort/imports': [
+    'error',
+    {
+      groups: [
+        // side effect imports
+        ['^\\u0000'],
+        ['\n'],
+        // node
+        ['^fs', '^path', '^url', '^xml', '^dotenv'],
+        ['\n'],
+        // front vendors
+        [
+          '^next',
+          '^react',
+          '^redux',
+          '^mobx',
+          '^zustand',
+          '^@mui/material',
+          '^@mui',
+          '^@mui/icons-material',
+          '^material-ui',
+          '^@emotion',
+          '^antd',
+          '^axios',
+          '^lodash',
+          '^moment',
+          '^dayjs',
+          '^lunr',
+          '^clsx',
+        ],
+        ['\n'],
+        // front src
+        [
+          '^base',
+          '^route',
+          '^hooks',
+          '^contexts',
+          '^providers',
+          '^utils',
+          '^locale',
+          '^store',
+          '^types',
+          '^integration',
+          '^search',
+          '^pages',
+          '^layouts',
+          '^themes',
+          '^ui',
+          '^icon',
+          '^constant',
+          '^asset',
+          '^image',
+        ],
+        ['\n'],
+        ['^./', '^../'],
+        ['\n'],
+      ],
+    },
+  ],
+};
